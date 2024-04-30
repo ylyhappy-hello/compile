@@ -1,0 +1,6 @@
+int a = 1;
+int b = 2;
+int c = 1 * 2;
+$1;
+equation e = (a, b)=>{$1 * a = 1; $1 * a + $2 * b = 5};
+print(c); 
